@@ -1,13 +1,14 @@
 import React from "react";
 
 import GlobalStyle from "./styles/global";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div className="App">
+    <>
+      <Header />
       <GlobalStyle />
-      <h1>Hello World</h1>
-    </div>
+    </>
   );
 };
 
